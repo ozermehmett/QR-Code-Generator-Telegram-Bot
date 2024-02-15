@@ -2,6 +2,9 @@
 
 This project is a Telegram bot for generating QR codes. The bot creates a QR code for you based on a link or text you send to it.
 
+![image](https://github.com/ozermehmett/QR-Code-Generator-Telegram-Bot/assets/115498182/38fdbf4f-a433-4b61-9402-a96df551ad5b)
+
+
 ## Usage
 
 1. Start the bot with the ``/start`` command.
