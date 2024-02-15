@@ -13,7 +13,7 @@ def send_img(update, context):
 
 def start(update, context):
     user_name = update.message.from_user.first_name
-    welcome_message = f"Welcome, {user_name}! This bot is a QR code generator."
+    welcome_message = f"Welcome, {user_name}! This bot is a QR code generator. "
     welcome_message += "Just send a link, and it will create a QR code for you."
     context.bot.send_message(chat_id=update.effective_chat.id, text=welcome_message)
 
