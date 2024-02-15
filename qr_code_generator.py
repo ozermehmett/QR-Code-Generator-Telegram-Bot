@@ -2,7 +2,7 @@ import qrcode
 
 
 def generateQRCode(file_name, url):
-    path = "qrcodes/" + file_name + ".png"
+    path = "qrCodes/" + file_name + ".png"
     qr = qrcode.QRCode(
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_L,
